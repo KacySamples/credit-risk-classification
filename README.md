@@ -18,7 +18,7 @@ Accuracy: Remained consistent at 0.99 for both models, indicating that the overa
 Macro Avg: The macro average for recall increased from 0.97 to 0.99, showing an improvement in the model's ability to correctly identify both classes. The macro average F1-score also increased from 0.94 to 0.95, reflecting a slight improvement in the balance between precision and recall across classes.
 Weighted Avg: Remained consistent with precision, recall, and F1-scores staying at 0.99, indicating that the model's weighted performance across classes did not change significantly.
 
-##Summary
+## Summary
 The primary improvement in the logistic regression model trained with oversampled data is seen in the recall for high-risk loans (label 1), which indicates a better capability to identify nearly all high-risk loans. This improvement is crucial for applications where failing to identify a high-risk loan could have significant consequences, even if the precision did not improve. The model's ability to identify healthy loans remained strong and consistent, demonstrating that oversampling the minority class did not detrimentally affect the model's performance on the majority class. This balance is essential for maintaining overall model reliability and usefulness in practical applications.
 
 
